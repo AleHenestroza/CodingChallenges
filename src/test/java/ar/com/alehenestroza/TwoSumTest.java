@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LeetCodeChallengesTest {
+class TwoSumTest {
 
     @Test
     void test_twoSum_case1() {
-        LeetCodeChallenges lcc = new LeetCodeChallenges();
+        TwoSum lcc = new TwoSum();
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] result = lcc.twoSum(nums, target);
@@ -18,7 +18,7 @@ class LeetCodeChallengesTest {
 
     @Test
     void test_twoSum_case2() {
-        LeetCodeChallenges lcc = new LeetCodeChallenges();
+        TwoSum lcc = new TwoSum();
         int[] nums = {3, 2, 4};
         int target = 6;
         int[] result = lcc.twoSum(nums, target);
@@ -28,7 +28,7 @@ class LeetCodeChallengesTest {
 
     @Test
     void test_twoSum_case3() {
-        LeetCodeChallenges lcc = new LeetCodeChallenges();
+        TwoSum lcc = new TwoSum();
         int[] nums = {3, 3};
         int target = 6;
         int[] result = lcc.twoSum(nums, target);
