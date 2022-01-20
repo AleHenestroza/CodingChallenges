@@ -27,5 +27,7 @@ public class MaximumSubarray {
         }
 
         return maxSum;
+        // Time complexity: O(n)
+        // Space complexity: O(1)
     }
 }

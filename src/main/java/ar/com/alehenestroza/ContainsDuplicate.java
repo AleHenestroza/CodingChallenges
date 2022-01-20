@@ -22,6 +22,8 @@ public class ContainsDuplicate {
             }
         }
         return false;
+        // Time complexity: O(n)
+        // Space complexity: O(n)
     }
 
 }

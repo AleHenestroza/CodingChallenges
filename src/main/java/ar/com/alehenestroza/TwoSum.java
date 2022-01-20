@@ -28,5 +28,7 @@ public class TwoSum {
             map.put(nums[i], i);
         }
         return null;
+        // Time complexity: O(n)
+        // Space complexity: O(n)
     }
 }
