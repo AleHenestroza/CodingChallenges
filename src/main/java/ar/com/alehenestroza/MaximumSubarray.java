@@ -1,16 +1,18 @@
 package ar.com.alehenestroza;
 
+/*
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+A subarray is a contiguous part of an array.
+
+Constraints:
+1 <= nums.length <= 105
+-104 <= nums[i] <= 104
+
+ */
 public class MaximumSubarray {
 
-    /*
-    Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
-    A subarray is a contiguous part of an array.
-
-    Constraints:
-    1 <= nums.length <= 105
-    -104 <= nums[i] <= 104
-
-     */
+    // Time complexity: O(n)
+    // Space complexity: O(1)
     public static int maximumSubarray(int[] array) {
         int maxSum = array[0];
         int sum = 0;
@@ -27,7 +29,5 @@ public class MaximumSubarray {
         }
 
         return maxSum;
-        // Time complexity: O(n)
-        // Space complexity: O(1)
     }
 }

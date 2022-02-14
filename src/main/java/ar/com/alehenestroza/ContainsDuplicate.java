@@ -9,9 +9,12 @@ Constraints:
 
 1.    1 <= nums.length <= 105
 2.    -109 <= nums[i] <= 109
+
  */
 public class ContainsDuplicate {
 
+    // Time complexity: O(n)
+    // Space complexity: O(n)
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
@@ -22,8 +25,6 @@ public class ContainsDuplicate {
             }
         }
         return false;
-        // Time complexity: O(n)
-        // Space complexity: O(n)
     }
 
 }
